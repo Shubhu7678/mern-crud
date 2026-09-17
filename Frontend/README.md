@@ -1,5 +1,14 @@
 # React + Vite
 
+## Backend connection
+
+The task UI uses `http://localhost:5001/api` by default. To use another
+backend URL, create a `.env` file in this frontend directory with:
+
+```env
+VITE_API_URL=http://localhost:5001/api
+```
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
