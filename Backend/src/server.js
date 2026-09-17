@@ -63,7 +63,7 @@ app.use((error, req, res, next) => {
 
 // 3. Local Development vs. Vercel Export
 if (process.env.NODE_ENV !== 'production') {
-  const port = process.env.PORT || 5005;
+  const port = process.env.PORT || 5001;
   app.listen(port, () => {
     console.log(`Server running locally on port ${port}`);
   });
